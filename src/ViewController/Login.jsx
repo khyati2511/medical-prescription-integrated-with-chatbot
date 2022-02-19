@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Login() {
+const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -52,6 +52,6 @@ function Login() {
       </p>
     </form>
   );
-}
+};
 
 export default Login;
