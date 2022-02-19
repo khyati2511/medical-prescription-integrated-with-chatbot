@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Signup() {
+const Signup = () => {
   const [userCreds, setUserCreds] = useState({
     firstname: '', lastname: '', username: '', email: '', password: '', confirmPassword: '',
   });
@@ -103,6 +103,6 @@ function Signup() {
       </p>
     </form>
   );
-}
+};
 
 export default Signup;

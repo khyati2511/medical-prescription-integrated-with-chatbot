@@ -25,6 +25,14 @@
                 "some": [ "nesting", "id" ]
             },
             "allowChildren": false
-        }]
+        }],
+        "react/function-component-definition": [
+            2,
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
+          ],
+          "arrow-body-style": "off"
     }
 }

@@ -7,7 +7,7 @@ import {
 import Login from '../ViewController/Login';
 import Register from '../ViewController/Register';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="auth-wrapper">
