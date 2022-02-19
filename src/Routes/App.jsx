@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Login from '../ViewController/Login';
 import Register from '../ViewController/Register';
+import Home from '../ViewController/Home';
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Login} />
             <Route path="/register" component={Register} />
+            <Route path="/home" component={Home} />
+            <Route path="/patientDetails" component={Home} />
           </Switch>
         </div>
       </div>
