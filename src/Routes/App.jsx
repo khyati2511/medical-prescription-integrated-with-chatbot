@@ -1,12 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
+import {
+  BrowserRouter as Router, Switch, Route,
+} from 'react-router-dom';
+import Login from '../ViewController/Login';
+import Register from '../ViewController/Register';
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      hello
-    </div>
+    <Router>
+      <div className="auth-wrapper">
+        <div className="auth-inner">
+          <Switch>
+            <Route exact path="/" component={Login} />
+            <Route path="/register" component={Register} />
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
-
 export default App;
