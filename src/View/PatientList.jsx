@@ -3,11 +3,9 @@ import React from 'react';
 
 const PatientList = ({ patientData }) => {
   return (
-    <div>
-      <div>
-        <p>{patientData.name}</p>
-      </div>
-    </div>
+    <li className="list-group-item">
+      <p>{patientData.name}</p>
+    </li>
   );
 };
 
