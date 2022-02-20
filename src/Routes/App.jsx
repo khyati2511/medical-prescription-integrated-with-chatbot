@@ -12,16 +12,12 @@ import PatientDetails from '../ViewController/PatientDetails';
 const App = () => {
   return (
     <Router>
-      <div className="auth-wrapper">
-        <div className="auth-inner">
-          <Switch>
-            <Route exact path="/" component={Login} />
-            <Route path="/register" component={Register} />
-            <Route path="/home" component={Home} />
-            <Route path="/patientDetails" component={PatientDetails} />
-          </Switch>
-        </div>
-      </div>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <Route path="/register" component={Register} />
+        <Route path="/home" component={Home} />
+        <Route path="/patientDetails" component={PatientDetails} />
+      </Switch>
     </Router>
   );
 };

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import profile from '../images/person.png';
+import profile from '../Images/person.png';
 
 const LeftMsgUI = ({ msg }) => {
   return (

@@ -8,7 +8,7 @@ const patientDetails = () => {
     <div>
       <div>
         <p>jumana</p>
-        <button type="button" value="bot" />
+        <button type="button">bot</button>
         <Chatbot msgArray={['msg', 'msg']} />
       </div>
     </div>
