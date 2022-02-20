@@ -1,12 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import profile from '../images/person.png';
 
 const RightMsgUI = ({ msg }) => {
   return (
-    <div>
-      <div>
-        <p>{msg}</p>
+    <div className="d-flex flex-row p-3 left">
+      <div className="bg-white mr-2 p-3">
+        <span className="text-muted">{msg}</span>
       </div>
+      <img src={profile} width="30" height="30" alt="" />
     </div>
   );
 };
