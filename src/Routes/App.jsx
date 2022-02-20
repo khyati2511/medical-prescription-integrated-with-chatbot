@@ -7,6 +7,7 @@ import {
 import Login from '../ViewController/Login';
 import Register from '../ViewController/Register';
 import Home from '../ViewController/Home';
+import PatientDetails from '../ViewController/PatientDetails';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
             <Route exact path="/" component={Login} />
             <Route path="/register" component={Register} />
             <Route path="/home" component={Home} />
-            <Route path="/patientDetails" component={Home} />
+            <Route path="/patientDetails" component={PatientDetails} />
           </Switch>
         </div>
       </div>

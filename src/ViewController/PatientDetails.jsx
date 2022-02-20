@@ -3,13 +3,13 @@
 import React from 'react';
 import Chatbot from './Chatbot';
 
-const patientDetails = ({ patientData }) => {
+const patientDetails = () => {
   return (
     <div>
       <div>
-        <p>{patientData.name}</p>
+        <p>jumana</p>
         <button type="button" value="bot" />
-        <Chatbot msgArray={[]} />
+        <Chatbot msgArray={['msg', 'msg']} />
       </div>
     </div>
   );
